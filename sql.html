@@ -1,0 +1,407 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Welcome to Edureka. A blog for coding enthusiasts">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style4.css">
+       <title>Instructor-Led Online Training with 24X7 Lifetime Support | Edureka</title>
+    <link rel="icon" type="image/png" href="/Images/image.png">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">Edureka</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                
+
+               
+               <li class="nav-item">
+                    <a class="nav-link" href="/training.html">Corporate Training</a>
+
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact.html">Contact Us</a>
+                </li>
+
+
+            </ul>
+            
+            <div class="mx-2">
+                <button class="btn btn-danger"  ><a href="/form.html"> SignUP</a> </button>
+                <!-- <button class="btn btn-danger"><a href="/form/Public/FORM.html">Signup</a></button> -->
+            </div>
+            <div class="mx-2">
+                <button class="btn btn-danger"  ><a href="/login.html">Login</a> </button>
+                <!-- <button class="btn btn-danger"><a href="/form/Public/FORM.html">Signup</a></button> -->
+        </div>
+    </nav>
+    <div class="head">
+        <h1> SQL Programming Language <br><br></h1>
+    </div>
+
+    <div class="box1">
+
+        <h2>Introduction</h2><br>
+        <br>
+        <img src="/Images/SQL2.png" alt="">
+        <br><br>
+
+        Structured Query Language or SQL is a standard Database language which is used to create, maintain and retrieve the data from relational databases like MySQL, Oracle, SQL Server, PostGre, etc. The recent ISO standard version of SQL is SQL:2019.
+<br><br>
+As the name suggests, it is used when we have structured data (in the form of tables). All databases that are not relational (or do not use fixed structure tables to store data) and therefore do not use SQL, are called NoSQL databases. Examples of NoSQL are MongoDB, DynamoDB, Cassandra, etc
+<br><br>
+Structured Query Language is a standard Database language which is used to create, maintain and retrieve the relational database. Following are some interesting facts about SQL.
+<br>
+<br>
+<ul>
+    <li>SQL is case insensitive. But it is a recommended practice to use keywords (like SELECT, UPDATE, CREATE, etc) in capital letters and use user defined things (liked table name, column name, etc) in small letters.</li>
+<li>We can write comments in SQL using “–” (double hyphen) at the beginning of any line.</li>
+<li>SQL is the programming language for relational databases (explained below) like MySQL, Oracle, Sybase, SQL Server, Postgre, etc. Other non-relational databases (also called NoSQL) databases like MongoDB, DynamoDB, etc do not use SQL</li>
+<li>Although there is an ISO standard for SQL, most of the implementations slightly vary in syntax. So we may encounter queries that work in SQL Server but do not work in MySQL.</li>
+</ul>
+<br><br>
+<h4>
+What is Relational Database?
+</h4>
+
+Relational database means the data is stored as well as retrieved in the form of relations (tables). Table 1 shows the relational database with only one relation called STUDENT which stores ROLL_NO, NAME, ADDRESS, PHONE and AGE of students. 
+<br><br>
+<img src="/Images/table.png" alt="">
+<br><br>
+
+These are some important terminologies that are used in terms of relation. <br><br>
+<b>
+Attribute: </b> Attributes are the properties that define a relation. e.g.; ROLL_NO, NAME etc. <br><br>
+<b>
+Tuple: </b> Each row in the relation is known as tuple. The above relation contains 4 tuples, one of which is shown as: <br>
+
+<img src="/Images/data.png" alt="">
+<br><br>
+<b>
+Degree:</b> The number of attributes in the relation is known as degree of the relation. The STUDENT relation defined above has degree 5. <br><br>
+<b>
+Cardinality:</b> The number of tuples in a relation is known as cardinality. The STUDENT relation defined above has cardinality 4. <br><br>
+<b>
+Column:</b> Column represents the set of values for a particular attribute. The column ROLL_NO is extracted from relation STUDENT.
+<br><br>
+
+The queries to deal with relational database can be categories as: <br><br>
+<b>
+Data Definition Language:</b> It is used to define the structure of the database. e.g; CREATE TABLE, ADD COLUMN, DROP COLUMN and so on. <br><br>
+<b>
+Data Manipulation Language: </b>It is used to manipulate data in the relations. e.g.; INSERT, DELETE, UPDATE and so on. <br><br>
+<b>
+Data Query Language:</b> It is used to extract the data from the relations. e.g.; SELECT <br><br>
+
+So first we will consider the Data Query Language. A generic query to retrieve from a relational database is: <br>
+<ol>
+<li>SELECT [DISTINCT] Attribute_List FROM R1,R2….RM</li>
+<li>[WHERE condition]</li>
+<li>[GROUP BY (Attributes)[HAVING condition]]</li>
+<li>[ORDER BY(Attributes)[DESC]]</li>
+</ol>
+<br>
+<br>
+<h4>
+Topic:
+</h4>
+<ul>
+<li>Basics</li>
+<li>Clauses/ Operators</li>
+<li>Functions</li>
+<li>Queries</li>
+<li>SQL-Injection</li>
+<li>PL/SQL</li>
+<li>MySQL</li>
+<li>SQL Server</li>
+<li>Misc</li>
+<li>Quick Links</li>
+</ul>
+<br>
+<h4>
+Basics:
+</h4>
+<ul>
+<li>Structured Query Language</li>
+<li>SQL | Datatypes</li>
+<li>SQL | DDL, DML, TCL and DCL</li>
+<li>SQL | TRANSACTIONS</li>
+<li>SQL | VIEWS</li>
+<li>SQL | Comments</li>
+<li>SQL | Constraints</li>
+<li>SQL | Creating Roles</li>
+<li>SQL | Indexes</li>
+<li>SQL | SEQUENCES</li>
+<li>SQL | Query Processing</li>
+<li>CTE in SQL</li>
+<li>SQL Trigger | Student Database</li>
+<li>Book Management Database</li>
+<li>Introduction to NoSQL</li>
+</ul>
+<br>
+<h4>
+Clauses/ Operators:
+</h4>
+<ul>
+
+<li>SQL | WITH clause</li>
+<li>SQL | With Ties Clause</li>
+<li>SQL | Arithmetic Operators</li>
+<li>SQL | Wildcard operators</li>
+<li>SQL | Intersect & Except clause</li>
+<li>SQL | USING Clause</li>
+<li>SQL | MERGE Statement</li>
+<li>MERGE Statement in SQL Explained</li>
+<li>SQL | DDL, DML, DCL and TCL Commands</li>
+<li>SQL | CREATE DOMAIN</li>
+<li>SQL | DESCRIBE Statement</li>
+<li>SQL | Case Statement</li>
+<li>SQL | UNIQUE Constraint</li>
+<li>SQL | Create Table Extension</li>
+<li>SQL | ALTER (RENAME)</li>
+<li>SQL | ALTER (ADD, DROP, MODIFY)</li>
+<li>SQL | LIMIT Clause</li>
+<li>SQL | INSERT IGNORE Statement</li>
+<li>SQL | LIKE</li>
+<li>SQL | SOME</li>
+<li>SQL | OFFSET-FETCH Clause</li>
+<li>SQL | Except Clause</li>
+<li>Combining aggregate and non-aggregate values in SQL using Joins and Over clause</li>
+<li>SQL | ALL and ANY</li>
+<li>SQL | EXISTS</li>
+<li>SQL | GROUP BY</li>
+<li>SQL | Union Clause</li>
+<li>SQL | Aliases</li>
+<li>SQL | ORDER BY</li>
+<li>SQL | SELECT TOP Clause</li>
+<li>SQL | UPDATE Statement</li>
+<li>SQL | DELETE Statement</li>
+<li>SQL | INSERT INTO Statement</li>
+<li>SQL | AND and OR operators</li>
+<li>SQL | WHERE Clause</li>
+<li>SQL | Distinct Clause</li>
+<li>SQL | SELECT Query</li>
+<li>SQL | DROP, TRUNCATE</li>
+<li>SQL | CREATE</li>
+<li>SQL | Join (Cartesian Join & Self Join)</li>
+<li>SQL | Alternative Quote Operator</li>
+<li>SQL | Concatenation Operator</li>
+<li>SQL | MINUS Operator</li>
+<li>SQL | DIVISION</li>
+<li>SQL | NOT Operator</li>
+<li>SQL | BETWEEN & IN Operator</li>
+<li>SQL | Join (Inner, Left, Right and Full Joins)</li>
+<li>SQL | CHECK Constraint</li>
+</ul>
+<br>
+<h4>
+SQL-Injection:
+</h4>
+<ul>
+
+<li>SQL Injection</li>
+<li>How to use SQLMAP to test a website for SQL Injection vulnerability</li>
+<li>Mitigation of SQL Injection Attack using Prepared Statements (Parameterized Queries)</li>
+<li>Basic SQL Injection and Mitigation with Example</li>
+</ul>
+<br>
+<h4>
+Functions:
+</h4>
+<ul>
+
+<li>SQL | Mathematical functions (SQRT, PI, SQUARE, ROUND, CEILING & FLOOR)</li>
+<li>SQL | Conversion Function</li>
+<li>SQL general functions | NVL, NVL2, DECODE, COALESCE, NULLIF, LNNVL and NANVL</li>
+<li>SQL | Conditional Expressions</li>
+<li>SQL | Character Functions with Examples</li>
+<li>SQL | Date Functions (Set-1)</li>
+<li>SQL | Date Functions (Set-2)</li>
+<li>SQL | LISTAGG</li>
+<li>SQL | Aggregate functions</li>
+<li>SQL | Functions (Aggregate and Scalar Functions)</li>
+<li>SQL | Date functions</li>
+<li>SQL | NULL</li>
+<li>SQL | Numeric Functions</li>
+<li>SQL | String functions</li>
+<li>SQL | Advanced Functions</li>
+</ul>
+<br>
+<h4>
+Queries:
+</h4>
+<ul>
+
+<li>SQL | Joining three or more tables</li>
+<li>SQL | How to Get the names of the table</li>
+<li>SQL | Sub queries in From Clause</li>
+<li>SQL | Correlated Subqueries</li>
+<li>SQL | Top-N Queries</li>
+<li>SQL | SUB Queries</li>
+<li>SQL | How to print duplicate rows in a table?</li>
+<li>SQL | How to find Nth highest salary from a table</li>
+<li>DBMS | Nested Queries in SQL</li>
+<li>SQL query to find second highest salary?</li>
+</ul>
+<br>
+<h4>
+PL/SQL:
+</h4>
+<ul>
+
+<li>PL/SQL Introduction</li>
+<li>Cursors in PL/SQL</li>
+<li>Sum Of Two Numbers in PL/SQL</li>
+<li>Reverse a number in PL/SQL</li>
+<li>Factorial of a number in PL/SQL</li>
+<li>Print Patterns in PL/SQL</li>
+<li>Decision Making in PL/SQL</li>
+<li>Oracle SQL | Pseudocolumn</li>
+<li>SQL | Procedures in PL/SQL</li>
+<li>Print different star patterns in SQL</li>
+<li>GCD of two numbers in PL/SQL</li>
+<li>Centered triangular number in PL/SQL</li>
+<li>Floyd’s triangle in PL/SQL</li>
+<li>Convert distance from km to meters and centimeters in PL/SQL</li>
+<li>Convert the given numbers into words in Pl/SQL</li>
+<li>Sum of digits of a number in PL/ SQL</li>
+<li>Sum of digits equal to a given number in PL/SQL</li>
+<li>Sum and average of three numbers in PL/SQL</li>
+<li>Check whether a string is palindrome or not in PL/SQL</li>
+<li>Count odd and even digits in a number in PL/SQL</li>
+<li>No. of vowels and consonants in a given string in PL/SQL</li>
+<li>Area and Perimeter of a circle in PL/SQL</li>
+<li>Finding sum of first n natural numbers in PL/SQL</li>
+<li>Area and Perimeter of Rectangle in PL/SQL</li>
+<li>Sum of the first and last digit of a number in PL/SQL</li>
+<li>Count no. of characters and words in a string in PL/SQL</li>
+<li>Greatest number among three given numbers in PL/SQL</li>
+<li>Concatenation of strings in PL/SQL</li>
+<li>PL/SQL | User Input</li>
+</ul>
+<br>
+<h4>
+MySQL:
+</h4>
+<ul>
+
+<li>MySQL | Regular expressions(Regexp)</li>
+<li>MySQL | Grant/Revoke Privileges</li>
+<li>MySQL | DATABASE() and CURRENT_USER() Functions</li>
+<li>MySQL | BIN() Function</li>
+<li>MySQL | IFNULL</li>
+<li>MySQL | LAST_DAY() Function</li>
+<li>MySQL | RENAME USER</li>
+<li>MySQL | DROP USER</li>
+<li>MySQL | CREATE USER Statement</li>
+<li>MySQL | Change User Password</li>
+<li>PHP | MySQL WHERE Clause</li>
+<li>PHP | MySQL ORDER BY Clause</li>
+<li>PHP | MySQL UPDATE Query</li>
+<li>PHP | MySQL Delete Query</li>
+<li>PHP | MySQL LIMIT Clause</li>
+<li>PHP | MySQL Select Query</li>
+<li>PHP | Inserting into MySQL database</li>
+<li>PHP | MySQL ( Creating Table )</li>
+<li>PHP | MySQL ( Creating Database )</li>
+</ul>
+<br>
+<h4>
+SQL Server:
+</h4>
+<ul>
+<li>SQL SERVER | Conditional Statements</li>
+<li>SQL Server Identity</li>
+<li>SQL Server | STUFF() Function</li>
+</ul>
+<br>
+<h4>
+Misc:
+</h4>
+<ul>
+<li>SQL using Python | Set 1</li>
+<li>SQL using Python and SQLite | Set 2</li>
+<li>SQL using Python | Set 3 (Handling large data)</li>
+<li>Check if Table, View, Trigger, etc present in Oracle</li>
+<li>Performing Database Operations in Java | SQL CREATE, INSERT, UPDATE, DELETE and SELECT</li>
+<li>Difference between Simple and Complex View in SQL</li>
+<li>Difference between Static and Dynamic SQL</li>
+<li>Having Vs Where Clause?</li>
+<li>Inner Join Vs Outer Join</li>
+<li>Difference between SQL and NoSQL</li>
+</ul>
+
+        <b>For More Details Read Documentation:
+
+
+            <a href="https://docs.oracle.com/cd/E12151_01//">Documentation</a></b>
+
+    </div>
+
+
+  
+    <footer class="container">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>© 2022-2023 Edureka, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a>
+        </p>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+<form action="/login.html" method="post">
+    <p>
+        <label>Username : <input type="text" placeholder="Enter your name " name="username"/></label>
+        </p>
+        <p>
+        <label>Password : <input type="password" name="password"/></label>
+        </p>
+        <p>
+        <label>Email ID : <input type="email"  name="email"/></label>
+        </p>
+        <p>
+        <label>Branch : <input type="text"  name="branch"/></label>
+        </p>
+        <p>
+        <label>Year  : <input type="number" name="year"/></label>
+        </p>
+        <p>
+        <label>College Name  : <input type="text"  name="college_name"/></label>
+        </p> 
+      
+        <p>
+        <button type="submit">Submit</button>
+        </p>
+    </form>

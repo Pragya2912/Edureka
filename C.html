@@ -1,0 +1,596 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Welcome to Edureka. A blog for coding enthusiasts">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style4.css">
+       <title>Instructor-Led Online Training with 24X7 Lifetime Support | Edureka</title>
+    <link rel="icon" type="image/png" href="/Images/image.png">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">Edureka</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                
+
+               
+               <li class="nav-item">
+                    <a class="nav-link" href="/training.html">Corporate Training</a>
+
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact.html">Contact Us</a>
+                </li>
+
+
+            </ul>
+            
+            <div class="mx-2">
+                <button class="btn btn-danger"  ><a href="/form.html"> SignUP</a> </button>
+                <!-- <button class="btn btn-danger"><a href="/form/Public/FORM.html">Signup</a></button> -->
+            </div>
+            <div class="mx-2">
+                <button class="btn btn-danger"  ><a href="/login.html">Login</a> </button>
+                <!-- <button class="btn btn-danger"><a href="/form/Public/FORM.html">Signup</a></button> -->
+        </div>
+    </nav>
+    <div class="head">
+        <h1> C Programming Language <br><br></h1>
+    </div>
+
+    <div class="box1">
+        <h2>Introduction</h2>
+        <p>C is a procedural programming language. It was initially developed by Dennis Ritchie as a system programming
+            language to write operating system. The main features of C language include low-level access to memory,
+            simple set of keywords, and clean style, these features make C language suitable for system programming like
+            operating system or compiler development.</p>
+
+        <img src="/Images/c1.png" alt="">
+        <p>Many later languages have borrowed syntax/features directly or indirectly from the C language. Like syntax of
+            Java, PHP, JavaScript, and many other languages are mainly based on the C language. C++ is nearly a superset
+            of C language (Few programs may compile in C, but not in C++). </p>
+
+        <p>
+        <h2>
+            Beginning with C programming
+        </h2><br><br>
+
+        <h4>1.Structure of a C program</h4>
+        &nbsp;&nbsp;&nbsp;After the above discussion, we can formally assess the structure of a C program. By
+        &nbsp;&nbsp;&nbsp;structure, it is meant that any program can be written in this structure only. Writing a C
+        &nbsp;&nbsp;&nbsp;program in any other structure will hence lead to a Compilation Error. <br>
+        &nbsp;&nbsp;&nbsp;The structure of a C program is as follows:</p>
+
+
+        <img src="/Images/sturct.png" alt=""><br><br>
+        <ol>
+            <li>The components of the above structure are:</li>
+            <ol>
+                <li>
+                    <h5>Header Files Inclusion:</h5>The first and foremost component is the inclusion of the Header
+                    files in a C program. <br>
+                    A header file is a file with extension .h which contains C function declarations and macro
+                    definitions to be shared between several source files. <br>
+                    Some of C Header files:
+                </li>
+                <ul>
+                    <li>stddef.h – Defines several useful types and macros.</li>
+                    <li>stdint.h – Defines exact width integer types.</li>
+                    <li>stdio.h – Defines core input and output functions</li>
+                    <li>stdlib.h – Defines numeric conversion functions, pseudo-random network generator, memory
+                        allocation</li>
+                    <li>string.h – Defines string handling functions</li>
+                    <li>math.h – Defines common mathematical functions</li>
+                </ul>
+                <li>
+                    <h5>Main Method Declaration:</h5>The next part of a C program is to declare the main() function. The
+                    syntax to declare the main function is: <br>
+                    <h5>
+                        Syntax to Declare the main method:
+                    </h5>
+                    <img src="/Images/main.png" alt="">
+                </li>
+                <li>
+                    <h5>Variable Declaration:</h5>
+                    The next part of any C program is the variable declaration. It refers to the variables that are to
+                    be used in the function. Please note that in the C program, no variable can be used without being
+                    declared. Also in a C program, the variables are to be declared before any operation in the
+                    function. <br>
+                    <b> Example: </b> <br><br><br>
+                    <img src="/Images/var.png" alt="">
+                </li>
+                <li>
+                    <h5>Body:</h5>
+                    The body of a function in the C program, refers to the operations that are performed in the
+                    functions. It can be anything like manipulations, searching, sorting, printing, etc. <br>
+                    <b> Example: </b><br><br>
+                    <img src="/Images/body.png" alt="">
+
+                </li>
+                <li>
+                    <h5>Return statement:</h5>
+                    The last part of any C program is the return statement. The return statement refers to the returning
+                    of the values from a function. This return statement and return value depend upon the return type of
+                    the function. For example, if the return type is void, then there will be no return statement. In
+                    any other case, there will be a return statement and the return value will be of the type of the
+                    specified return type. <br>
+                    <b> Example: </b><br><br><br>
+                    <img src="/Images/return.png" alt="">
+                </li>
+                <li>
+                    <h5>
+                        Writing 1st Program
+                    </h5>
+                    Following is first program in C <br><br>
+                    <img src="/Images/program1.png" alt="">
+                    <ul>
+                        <li>Let us analyze the program line by line. <br>
+                            <strong> Line 1: [ #include stdio.h ]</strong> In a C program, all lines that start with #
+                            are processed by a preprocessor which is a program invoked by the compiler. In a very basic
+                            term, the preprocessor takes a C program and produces another C program. The produced
+                            program has no lines starting with #, all such lines are processed by the preprocessor. In
+                            the above example, the preprocessor copies the preprocessed code of stdio.h to our file. The
+                            .h files are called header files in C. These header files generally contain declarations of
+                            functions. We need stdio.h for the function printf() used in the program. <br>
+                            <strong>Line 2 [ int main(void) ] </strong>
+                            There must be a starting point from where execution of compiled C program begins. In C, the
+                            execution typically begins with the first line of main(). The void written in brackets
+                            indicates that the main doesn’t take any parameter (See this for more details). main() can
+                            be written to take parameters also. We will be covering that in future posts. <br>
+                            The int was written before main indicates return type of main(). The value returned by main
+                            indicates the status of program termination. See this post for more details on the return
+                            type. <br>
+                            <strong>
+                                Line 3 and 6: [ { and } ] </strong> In C language, a pair of curly brackets define scope
+                            and are mainly used in functions and control statements like if, else, loops. All functions
+                            must start and end with curly brackets. <br>
+                            <strong>
+                                Line 4 [ printf(“GeeksQuiz”); ] </strong> printf() is a standard library function to
+                            print something on standard output. The semicolon at the end of printf indicates line
+                            termination. In C, a semicolon is always used to indicate end of a statement.
+                            <br><strong>
+                                Line 5 [ return 0; ] </strong> The return statement returns the value from main(). The
+                            returned value may be used by an operating system to know the termination status of your
+                            program. The value 0 typically means successful termination. <br><br>
+                        </li>
+                        <li>
+                            <h5>
+                                How to execute the above program:
+                            </h5>
+                            In order to execute the above program, we need to first compile it using a compiler and then
+                            we can run the generated executable. There are online IDEs available for free like <a
+                                href="http://ideone.com/">http://ideone.com/</a> , or <a
+                                href="http://codepad.org/">http://codepad.org/</a> that can be used to start development
+                            in C without installing a compiler. <br>
+                            <strong> Windows: </strong> There are many free IDEs available for developing programs in C
+                            like Code Blocks and Dev-CPP. IDEs provide us with environment to develop code, compile it
+                            and finally execute it. We strongly recommend Code Blocks. <br>
+                            <strong>
+                                Linux: </strong> gcc compiler comes bundled with Linux which compiles C programs and
+                            generates executable for us to run. Code Blocks can also be used with Linux. <br>
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+        </ol>
+        <h4>
+        Basics:
+            </h4> 
+            <ol>
+        <li>C Language Introduction</li>
+        <li>C Programming Language Standard</li>
+        <li>int (1 sign bit + 31 data bits) keyword in C</li>
+        <li>Is it fine to write “void main()” or “main()” in C/C++?</li>
+        <li>Difference between “int main()” and “int main(void)” in C/C++?</li>
+        <li>Macros and Preprocessors in C</li>
+        <li>Compiling a C program:- Behind the Scenes</li>
+        <li>Benefits of C over other languages</li>
+        <li>Program error signals</li>
+        <li>Escape sequences in C</li>
+        <li>Line Slicing in C</li>
+        <li>C/ C++ Tokens</li>
+        </ol>
+        <h4>
+        Variable Declaration, Definition and Scope:
+        </h4>
+        <ol>
+
+        <li>Variables and Keywords in C</li>
+        <li>How are variables scoped in C – Static or Dynamic?</li>
+        <li>Scope rules in C</li>
+        <li>How Linkers Resolve Multiply Defined Global Symbols?</li>
+        <li>Quiz on Variable Declaration and Scope</li>
+        <li>Complicated declarations in C</li>
+        <li>Redeclaration of global variable in C</li>
+        <li>Internal and External Linkage</li>
+        <li>Declare variable as constant</li>
+        <li>Why variables doesn’t start with numbers</li>
+        <li>Redeclaration of global variables</li>
+        <li>Initialization of global and static variables</li>
+        </ol>
+        <h4>
+        Data Types:
+        </h4>
+        <ol>
+
+        <li>Data Types in C</li>
+        <li>Use of bool in C</li>
+        <li>Integer Promotions in C</li>
+        <li>Quiz on Data Types in C</li>
+        <li>Comparison of a float with a value in C</li>
+        <li>Need of long data type in C</li>
+        <li>size_t data type in C</li>
+        <li>Interesting facts about data-types and modifiers</li>
+        <li>Float and Double in C</li>
+        <li>Character arithmetic in C</li>
+        <li>Typecasting in C</li>
+        </ol>
+
+        <h4>
+        Storage Classes:
+        </h4>
+        <ol>
+        <li>Storage Classes in C</li>
+        <li>Static Variables in C</li>
+        <li>Understanding “extern” keyword in C</li>
+        <li>What are the default values of static variables in C?</li>
+        <li>Understanding “volatile” qualifier in C</li>
+        <li>Const Qualifier in C</li>
+        <li>Initialization of static variables in C</li>
+        <li>Understanding “register” keyword in C</li>
+        <li>Quiz on Storage Classes in C</li>
+        <li>Understanding volatile qualifier in C- Set 1</li>
+        </ol>
+        <h4>
+        Input/Output:
+        </h4>
+        <ol>
+
+        <li>Returned values of printf() and scanf()</li>
+        <li>What is return type of getchar(), fgetc() and getc() ?</li>
+        <li>Scansets in C</li>
+        <li>puts() vs printf() for printing a string</li>
+        <li>What is use of %n in printf() ?</li>
+        <li>How to print % using printf()?</li>
+        <li>Quiz on Input Output in C</li>
+        <li>Difference between printf, sprintf and fprintf?</li>
+        <li>Difference between getc(), getchar(), getch() and getche()</li>
+        <li>Difference between %d and %i format specifier</li>
+        <li>Use of fflush(stdin) in C</li>
+        <li>Clearing input buffer in C/C++</li>
+        <li>scanf() and fscanf() in C</li>
+        <li>getchar_unlocked() in C</li>
+        <li>Problem with scanf()</li>
+        <li>Differentiate printable and control character</li>
+        <li>rand() and srand() in C/C++</li>
+        </ol>
+        <h4>
+        Operators:
+        </h4>
+        <ul>
+        <li>Introduction to operators in C and Arithmetic Operators</li>
+        <li>Relational and Logical Operators in C</li>
+        <li>Bitwise Operators in C</li>
+        <li>Operator Precedence and Associativity in C</li>
+        <li>Evaluation order of operands</li>
+        <li>Comma in C and C++</li>
+        <li>sizeof operator in C</li>
+        <li>Operands for sizeof operator</li>
+        <li>A comma operator question</li>
+        <li>Result of comma operator as l-value in C and C++</li>
+        <li>Order of operands for logical operators</li>
+        <li>Increment (Decrement) operators require L-value Expression</li>
+        <li>Precedence of postfix ++ and prefix ++ in C/C++</li>
+        <li>Modulus on Negative Numbers</li>
+        <li>C/C++ Ternary Operator – Some Interesting Observations</li>
+        <li>Pre-increment (or pre-decrement) in C++</li>
+        <li>Difference between ++*p, *p++ and *++p</li>
+        <li>Results of comparison operations in C and C++</li>
+        <li>To find sum of two numbers without using any operator</li>
+        <li>Sequence Points in C</li>
+        <li>Execution of printf with ++ operators</li>
+        <li>Anything written in sizeof() is never executed</li>
+        <li>Difference between strlen() and sizeof()</li>
+        <li>Stringizing and Token-pasting operator</li>
+        </ul>
+        <h4>
+        Preprocessor:
+        </h4>
+        <ul>
+       <li> Write a C macro PRINT(x) which prints x</li>
+       <li> Variable length arguments for Macros</li>
+       <li> Multiline macros in C</li>
+       <li> CRASH() macro – interpretation</li>
+       <li> The OFFSETOF() macro,</li>
+       <li> Branch prediction macros in GCC</li>
+       <li> Diffference between #define and const in C?</li>
+       <li> A C Programming Language Puzzle</li>
+       <li> What’s difference between header files “stdio.h” and “stdlib.h” ?</li>
+       <li> How to print a variable name in C?</li>
+       <li> Constants in C</li>
+       <li> How a Preprocessor works</li>
+       <li> Preprocessor Directives : Behind the scene-1</li>
+       <li> Preprocessor Directives : Behind the scene-2</li>
+       <li> isgraph() library function</li>
+       <li> write your own header file in C</li>
+       <li> difftime() library function</li>
+       <li> tmpnam() library function</li>
+       <li> _Generic keyword in C</li>
+       <li> math.h library functions</li>
+       <li> typedef versus #define in C</li>
+       <li> strftime() library function</li>
+       <li> exec family of functions</li>
+        </ul>
+
+        <h4>
+        Arrays & Strings:
+        </h4>
+        <ul>
+
+        <li>Introduction to Arrays in C Language</li>
+        <li>Strings in C Language</li>
+        <li>Properties of array in C Language</li>
+        <li>Do not use sizeof for array parameters</li>
+        <li>Initialization of variables sized arrays in C</li>
+        <li>Are array members deeply copied?</li>
+        <li>What is the difference between single quoted and double quoted declaration of char array?</li>
+        <li>Initialization of a multidimensional arrays in C/C++</li>
+        <li>Write one line functions for strcat() and strcmp()</li>
+        <li>What’s difference between char s[] and char *s in C</li>
+        <li>gets() is risky to use!</li>
+        <li>C function to Swap strings,</li>
+        <li>Storage for Strings in C</li>
+        <li>Difference between array and pointer</li>
+        <li>How to dynamically allocate a 2D array in C?</li>
+        <li>How to pass a 2D array as a parameter in C?</li>
+        <li>How to write long strings in Multi-lines C/C++?</li>
+        <li>What are the data types for which it is not possible to create an array?</li>
+        <li>Variable Length Arrays in C and C++</li>
+        <li>Short hand array notation</li>
+        <li>Accessing array out of bounds</li>
+        <li>strcpy() in C/C++</li>
+        <li>strcmp() in C/C++</li>
+        <li>strdup() and strdndup() in C/C++</li>
+        <li>Pass an array by value</li>
+        <li>Reverse a string in C/C++</li>
+        <li>strpbrk() in C</li>
+        <li>strcoll() in C/C++</li>
+        <li>ispunct() in C</li>
+        <li>strspn() in C</li>
+        <li>isalpha() and isdigit() in C/C++</li>
+        </ul>
+
+        <h4>
+        Control Statements:
+        </h4>
+        <ul>
+
+        <li>What should be data type of case labels of switch statement in C?</li>
+        <li>For Versus While</li>
+        <li>A nested loop puzzle</li>
+        <li>switch statement in C</li>
+        <li>Difference between while(1) and while(0)</li>
+        <li>goto statement</li>
+        <li>Continue Statement</li>
+        <li>Break Statement</li>
+        <li>Using range in switch case</li>
+        </ul>
+        <h4>
+        Functions:
+        </h4>
+        <ul>
+        <li>Functions in C</li>
+        <li>Importance of function prototype in C</li>
+        <li>Functions that are executed before and after main() in C</li>
+        <li>return statement vs exit() in main()</li>
+        <li>How to Count Variable Numbers of Arguments in C?,</li>
+        <li>What is evaluation order of function parameters in C?</li>
+        <li>Does C support function overloading?</li>
+        <li>How can we return multiple values from a function?</li>
+        <li>What is the purpose of a function prototype?</li>
+        <li>Static functions in C</li>
+        <li>exit(), abort() and assert()</li>
+        <li>Implicit return type int in C</li>
+        <li>What happens when a function is called before its declaration in C?</li>
+        <li>_Noreturn function specifier in C</li>
+        <li>exit() vs _Exit()</li>
+        <li>__func__ identifier in C</li>
+        <li>Callback function in C</li>
+        <li>Nested functions in C</li>
+        <li>Parameter Passing Techniques</li>
+        <li>pow() function in C</li>
+        <li>tolower() function in C</li>
+        <li>time() function in C</li>
+        </ul>
+        <h4>
+        Pointers:
+            </h4>
+            <ul>
+        <li>Introduction to pointers in C and C++</li>
+        <li>Double Pointer (Pointer to Pointer) in C</li>
+        <li>Why C treats array parameters as pointers?</li>
+        <li>Output of the program | Dereference, Reference, Dereference, Reference</li>
+        <li>Dangling, Void , Null and Wild Pointers</li>
+        <li>An Uncommon representation of array elements</li>
+        <li>How to declare a pointer to a function?</li>
+        <li>Pointer vs Array in C</li>
+        <li>void pointer in C</li>
+        <li>NULL pointer in C !</li>
+        <li>Function Pointer in C</li>
+        <li>near, far and huge pointers</li>
+        <li>Generic Linked List in C</li>
+        <li>restrict keyword in C</li>
+        <li>const char *p, char * const p and const char * const p</li>
+        <li>Pointer to an Array</li>
+        </ul>
+        <h4>
+        Enum, Struct and Union:
+        </h4>
+        <ul>
+        <li>Enum in C</li>
+        <li>Structures in C</li>
+        <li>Union in C</li>
+        <li>Struct Hack</li>
+        <li>Structure Member Alignment, Padding and Data Packing</li>
+        <li>Operations on struct variables in C</li>
+        <li>Bit Fields in C</li>
+        <li>Structure Sorting (By Multiple Rules) in C++</li>
+        <li>Flexible array members in structure</li>
+        <li>Difference between Structure and Union</li>
+        <li>Difference between C structures and C++ structures</li>
+        <li>Anonymous Union and Structure in C</li>
+        <li>Compound Literals in C</li>
+        </ul>
+        <h4>
+        Memory Management:
+        </h4>
+        <ul>
+        <li>Memory Layout of C Programs,</li>
+        <li>How to deallocate memory without using free() in C?</li>
+        <li>calloc() versus malloc()</li>
+        <li>How does free() know the size of memory to be deallocated?</li>
+        <li>Use of realloc()</li>
+        <li>What is Memory Leak? How can we avoid?</li>
+        </ul>
+        <h4>
+        File Handling:
+        </h4>
+        <ul>
+        <li>fseek() vs rewind() in C</li>
+        <li>EOF, getc() and feof() in C</li>
+        <li>fopen() for an existing file in write mode</li>
+        <li>Read/Write structure to a file</li>
+        <li>fgets() and gets() in C</li>
+        <li>Basics of File Handling</li>
+        <li>fsetpos() in C</li>
+        <li>rename function in C/C++</li>
+        <li>tmpfile() function in C</li>
+        <li>fgetc() and fputc() in C</li>
+        <li>fseek() in C/C++</li>
+        <li>ftell() in C</li>
+        <li>lseek() in C/C++</li>
+        <li>remove function in C/C++</li>
+        <li>Merge contents of two files into a third file</li>
+        <li>Print contents of file in C</li>
+        </ul>
+        <h4>
+        Puzzles:
+        </h4>
+        <ul>
+
+        <li>C Program to print numbers from 1 to N without using semicolon?</li>
+        <li>How to find sum of two numbers without using any operator</li>
+        <li>How will you show memory representation of C variables?</li>
+        <li>Condition To Print “HelloWord”</li>
+        <li>Change/add only one character and print ‘*’ exactly 20 times</li>
+        <li>How can we sum the digits of a given number in single statement?</li>
+        <li>What is the best way in C to convert a number to a string?</li>
+        <li>Calculate Logn in one line</li>
+        <li>Print “Even” or “Odd” without using Conditional statement</li>
+        <li>How will you print numbers from 1 to 100 without using loop?</li>
+        <li>How can we sum the digits of a given number in single statement?</li>
+        <li>How will you print “Geeks for Geeks” without using a semicolon</li>
+        <li>Write a one line C function to round floating point numbers</li>
+        <li>How will implement Your Own sizeof</li>
+        <li>How to count set bits in a floating point number in C?</li>
+        <li>How to change the output of printf() in main() ?</li>
+        <li>How to find length of a string without string.h and loop in C?</li>
+        <li>Implement your own itoa()</li>
+        <li>Write a C program that does not terminate when Ctrl+C is pressed</li>
+        <li>How to measure time taken by a function in C?</li>
+        <li>Print a long int in C using putchar() only</li>
+        <li>Convert a floating point number to string in C</li>
+        <li>How to write a running C code without main()?</li>
+        <li>Write your own memcpy()</li>
+        <li>C program to print characters without using format specifiers</li>
+        <li>C program to print a string without any quote (singe or double) in the program</li>
+        <li>Execute both if and else statements simultaneously</li>
+        <li>Print “Hello World” without using any header file</li>
+        </ul>
+        <h4>
+        Misc:
+        </h4>
+        <ul>
+        <li>Quine – A self-reproducing program</li>
+        <li>Complicated declarations in C</li>
+        <li>Use of bool in C</li>
+        <li>Sequence Points in C | Set 1</li>
+        <li>Optimization Techniques | Set 2 (swapping),</li>
+        <li>ASCII NUL, ASCII 0 (’0?) and Numeric literal 0</li>
+        <li>Little and Big Endian Mystery,</li>
+        <li>Comparator function of qsort() in C</li>
+        <li>Program to validate an IP address</li>
+        <li>Multithreading in C</li>
+        <li>Assertions in C/C++</li>
+        <li>fork() in C</li>
+        <li>Interesting Facts in C Programming</li>
+        <li>Precision of floating point numbers in C++ (floor(), ceil(), trunc(), round() and setprecision())</li>
+        <li>setjump() and longjump() in C</li>
+        <li>nextafter() and nexttoward() in C/C++</li>
+        <li>pthread_cancel() in C</li>
+        <li>pthread_equal() in C</li>
+        <li>pthread_self() in C</li>
+        <li>Local Labels in C</li>
+        <li>lvalue and rvalue in C</li>
+        <li>Get and set the stack size of thread attribute</li>
+        <li>Difference between fork() and exec()</li>
+        <li>Errors in C/C++</li>
+        <li>Why is C considered faster than other languages</li>
+        <li>Incompatibilities between C and C++</li>
+        <li>Convert C/C++ code to assembly language</li>
+        <li>Error Handling in C</li>
+        <li>Executing main() in C/C++ : Behind the scene</li>
+        <li>Hygienic Macros in C</li>
+        <li>Command line arguments in C/C++</li>
+        <li>scanf(), fscanf(), sscanf(), scanf_s(), fscanf_s(), sscanf_s()</li>
+        <li>Some Interesting Facts in C Programming</li>
+        <li>Database Connectivity using C/C++</li>
+        <li>Function Interposition in C</li>
+        <li>Macros vs Functions</li>
+        <li>Write your own memcpy() and memmove()</li>
+        </ul>
+        <b>For More Details  Read Documentation:
+           
+           
+            <a href="https://devdocs.io/c/">Documentation</a></b>
+
+    </div>
+
+
+    </div>
+    <footer class="container">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>© 2022-2023 Edureka, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a>
+        </p>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
